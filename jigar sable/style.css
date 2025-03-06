@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 80px;
+    border-bottom: 0.5px rgb(213, 207, 207) solid;
+}
+.nav p{
+    margin-top: 10px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    float: left;
+}
+.nav i{
+    margin-left: 150px;
+    margin-right: 5px;
+    font-size: 30px;
+    color: black;
+}
+.nav .anc{
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+.anc a{
+    text-decoration: 0;
+    text-transform: capitalize;
+    margin-right: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.anc a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+.bod{
+    background-image: url(/assests/background.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 89vh;
+    width: 100%;
+}
+.info{
+    margin-left: 150px;
+    margin-top: 150px;
+    float: left;
+    width: 400px;
+}
+.p1 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.p1 span{
+    color: rgb(255, 128, 0);
+}
+.p2{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.p2 span{
+    color: maroon;
+}
+.info button{
+    height: 50px;
+    width: 150px;
+    background: rgb(70, 4, 99);
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 0px rgb(126, 15, 217);
+    cursor: pointer;
+}
+.info button:hover{
+    background: rgb(178, 241, 4);
+    color: blueviolet;
+}
+.info button i{
+    margin-left: 10px;
+}
+.sm a{
+    margin-right: 10px;
+}
+.sm a i:hover{
+    color: rgb(16, 16, 214);
+    background-color: rgb(104, 241, 6);
+    transform: scale(1.1);
+}
+.sm a i{
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: aqua;
+    height: 30px;
+    border: 1px solid white;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+.im img{
+    margin-top: 100px;
+    margin-left: 400px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+.im img:hover{
+    padding: 3px;
+    border: #8f8fbc solid 3px;
+    scale: 1.05;
+}
+
+.bot img{
+    position: fixed;
+    margin-top: 80px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

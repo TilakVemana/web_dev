@@ -1,0 +1,218 @@
+*{
+ padding: 0px;
+ margin: 0px;
+}
+.left{
+    margin-left: 10px;
+    width: 250px;
+    border-right: #ccc solid 1px;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+}
+.logo{
+    margin-top: 20px;
+}
+.left img{
+    height: 40px;
+    width: 100px;
+}
+
+.anchors  a{
+    padding-left: 10px;
+    text-decoration: 0;
+    text-transform: capitalize;
+    line-height: 40px;
+    margin-top: 25px;
+    display: block;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.anchors a:hover{
+    background: rgb(165, 167, 175);
+    border-radius: 5px;
+}
+.anchors i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.main{
+    display: flex;
+}
+.middle{
+    margin-top: 20px;
+    margin-left: 390px;
+}
+.top{
+    display: flex;
+}
+.im{
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+.im img{
+    height: 55px;
+    width: 55px;
+    display: block;
+    padding: 2px;
+    border: #ee2a7b 2px solid;
+    border-radius: 50%;
+
+}
+.im p{
+    text-align: center;
+}
+.post{
+    margin-left: 60px;
+    height: 670px;
+    border-bottom: 1px #ccc solid;
+}
+.title{
+    margin-top: 30px;
+    display: flex;
+}
+.title img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.title p{
+    margin: 15px;
+    font-weight: 600;
+}
+.title p span{
+    font-weight: 400;
+    margin-left: 10px;
+    color: grey;
+}
+.title i{
+    margin-left: 230px;
+    margin-top: 15px;
+    color: gray;
+}
+.pst img{
+    height: 468px;
+    width: 468px;
+    margin: 10px 0px;
+}
+.ft button{
+    border: 0;
+}
+.ft i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.ft .bm{
+    margin-left: 350px;
+}
+.end{
+    margin-top: 5px;
+}
+.end a{
+    text-decoration: 0;
+    color: black;
+}
+.end span{
+    color: grey;
+}
+.ac{
+    float: left;
+    color: gray;
+}
+.end i{
+    margin-left: 340px;
+    color: gray;
+}
+.right{
+    margin-top: 35px;
+    margin-left: 65px;
+
+}
+.prfl{
+    display: flex;
+    margin-bottom: 20px;
+}
+.prfl img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.prfl p{
+    font-weight: 600;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.prfl p span{
+    font-weight: 400;
+    color: gray;
+}
+.prfl a{
+    margin-left: 70px;
+    margin-top: 12px;
+    text-decoration: 0;
+    color: rgb(0, 123, 255);
+    font-weight: 500;
+}
+
+.right .prfl  a{
+    margin-left:130px ;
+}
+.sgs p{
+    margin-left: 0px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.sgs p span{
+    margin-left: 140px;
+    color: black;
+}
+.sgstns{
+    display: flex;
+    margin-bottom: 8px;
+}
+.sgstns img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.sgstns p{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.sgstns p span{
+    font-weight: 400;
+    color: gray;
+}
+.sgstns a{
+    margin-left: 70px;
+    margin-top: 12px;
+    text-decoration: 0;
+    color: rgb(0, 123, 255);
+    font-weight: 500;
+}
+.anc{
+    margin-top: 30px;
+}
+.anc ul{
+    margin-bottom: 20px;
+}
+.anc ul li{
+    display: inline;
+}
+.anc a{
+    text-decoration: 0;
+    color: #ccc;
+    font-size: 15px;
+}
+.anc a:hover{
+    text-decoration: underline;
+}
+.anc p{
+    color: #ccc;
+    font-size: 15px;
+}
+
