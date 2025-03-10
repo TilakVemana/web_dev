@@ -119,13 +119,11 @@
     height: 400px;
     width: 400px;
     border-radius: 50%;
+    transition: 2s;
 }
 .im img:hover{
-    padding: 3px;
-    border: #8f8fbc solid 3px;
-    scale: 1.05;
+    outline: rgb(5, 1, 18) 5px solid;
 }
-
 .bot img{
     position: fixed;
     margin-top: 80px;
